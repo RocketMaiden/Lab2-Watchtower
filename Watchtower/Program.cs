@@ -16,7 +16,7 @@ response = enemyPosition switch
     (x > 0 && y == 0) => "The enemy is to the E",
     (x > 0 && y > 0) => "The enemy is to the NW",
     (x == 0 && y > 0) => "The enemy is to the N",
-    (x > 0 && y > 0)) => "The enemy is to the NE",
+    (x > 0 && y > 0) => "The enemy is to the NE",
     _ => "Invalid data"
 };
 
